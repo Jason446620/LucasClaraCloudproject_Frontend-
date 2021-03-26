@@ -1,0 +1,83 @@
+.cardNewHiredServiceCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 880px;
+    height: 600px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardNewHiredServiceStep{
+    width: 220px;
+}
+
+
+.cardNewHiredServiceInput {
+    display: flex;
+}
+
+.cardNewHiredServiceInput .cardNewHiredServiceInputSeparator{
+    margin-bottom: 30px;
+}
+
+.cardNewHiredServiceInput .cardNewHiredServiceInputSeparatorLeft{
+    padding-right: 80px;
+}
+
+.cardNewHiredServiceButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cardNewHiredServiceButton .cardNewHiredServiceButtonSeparator{
+    padding-right: 70px;
+}
+
+.cardNewHiredServiceInputSeparator p{
+   color: #119E9F;
+   font-weight: bold;
+   font-size: 17px;
+   padding-left: 240px;
+   margin-top: 7px;
+}
+
+.cardNewHiredServiceButton p{
+    color: #13B7BA;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.cardNewHiredServiceCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.cardNewHiredServiceCorpo h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #13B7BA;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.StandardLabel{
+    color: #13B7BA;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cardNewHiredServiceInputUnique{
+    margin-bottom: 20px;
+}
+
+

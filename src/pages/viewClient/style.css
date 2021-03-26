@@ -1,0 +1,78 @@
+.listingClientBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listingClientSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.listingClientInternalBody{
+    margin-top: 110px;
+    padding-bottom: 50px;
+}
+
+.listingClientInternalBody h2{
+    color: #119E9F;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.listingClientSelectCenterTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0 130px;
+    margin-bottom: 40px;
+}
+
+.listingClientSelectCenterBottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.listingClientButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.litleBall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    color: white;
+    background-color: #13B7BA;
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+.listingClientButton{
+    margin-right: 100px;
+    width: 150px;
+}
+
+.StandardSelectCustom{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #13B7BA;
+    color: white;
+    border-style: none;
+    outline: none;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px 4px #4d4d4d21;
+}

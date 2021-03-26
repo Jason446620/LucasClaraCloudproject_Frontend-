@@ -1,0 +1,10 @@
+.approveUserBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.approveUserInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,9 @@
+.registerDepartmentBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerDepartmentInternalBody{
+    margin-top: 95px;
+}

@@ -1,0 +1,58 @@
+.hollowFilter {
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 4px;
+    border-style: solid;
+    border-color: #13B7BA;
+    border-radius: 1.3em;
+    height: 127px;
+    width: 149px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hollowFilter img {
+    height: 49px;
+}
+
+.hollowFilter.active {
+    img {
+        filter:brightness(100);
+    }
+    
+    p {
+        color: white;
+    }
+    
+    border-color: #119E9F;
+    background-color: #119E9F;
+}
+
+.hollowFilter:hover{
+    img {
+        filter:brightness(100);
+    }
+    
+    p {
+        color: white;
+        position: relative;
+        top: 7px;
+        font-size: 12px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    border-color: #13B7BA;
+    background-color: #13B7BA;
+}
+
+.hollowFilter p {
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    color: #13B7BA;
+}

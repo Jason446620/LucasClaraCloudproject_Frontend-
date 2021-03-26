@@ -1,0 +1,125 @@
+.cardServiceDetailsCorpoExternal {
+    display: flex;
+    justify-content: center;
+    background-color: #119E9F;
+    border-radius: 25px;
+    width: 1040px;
+    height: 450px;
+}
+
+.cardServiceDetail-editButtons {
+    display: flex;
+}
+
+.cardServiceDetail-statusContTrue,
+.cardServiceDetail-statusContFalse  {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.cardServiceDetail-statusContTrue {
+    background-color: rgb(25, 233, 77);
+    padding: 5px 10px;
+    border-radius: 25px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.cardServiceDetail-statusContFalse {
+    background-color: rgb(233, 25, 25);
+    padding: 5px 10px;
+    border-radius: 25px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.cardServiceDetail-statusContTrue img,
+.cardServiceDetail-statusContFalse img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.cardServiceDetailInformations{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardServiceDetail-editButtons {
+    width: 250px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardServiceDetailInformations .title h1{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cardServiceDetailsCorpoInternal{
+    margin-top: 15px;
+}
+
+.cardServiceDetailsTables{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    width: 960px;
+    height: 310px;
+    border-radius: 25px;
+    padding-top: 0px;
+}
+
+.cardServiceDetailTableAll {
+    display: flex;
+    justify-content: center;
+}
+
+.cardServiceDetailsTables .cardServiceDetailTableAll .cardServiceDetailsTableLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    color: #119E9F;
+}
+
+.cardServiceDetailsTable-nameService {
+    color: #119E9F;
+    font-size: 20px;
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+.cardServiceDetailsTables .cardServiceDetailTableAll .cardServiceDetailsTableCenter{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    color: #119E9F;
+}
+
+.cardServiceDetailsTables .cardServiceDetailTableAll .cardServiceDetailsTableRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #119E9F;
+}
+
+.cardServiceDetailsTables p{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+}

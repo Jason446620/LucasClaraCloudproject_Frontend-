@@ -1,0 +1,131 @@
+.cardListingService-align {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.cardListingService-align .cardListingService-style:hover {
+    background-color: #cfcfcf
+    
+}
+
+.cardListingService-align .cardListingService-style {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 680px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 10px #0000002a;
+    padding: 20px 35px;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-info .cardListingServiceHeader-title {
+    display: flex;
+    align-items: center;
+    width: 370px;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+.cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-status {
+    display: flex;
+} */
+
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-info .cardListingServiceHeader-title img{
+    width: 45px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-info .cardListingServiceHeader-title h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #119E9F;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingServiceHeader-info .cardListingServiceHeader-supplier p {
+    color: #119E9F;
+    position: relative;
+    bottom: 10px;
+    margin-left: 3px;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingService-statusServiceTrue {
+    background-color: rgb(25, 233, 77);
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingService-statusServiceFalse {
+    background-color: rgb(233, 25, 25);
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceHeader .cardListingService-statusServiceTrue img,
+.cardListingService-style .cardListingServiceHeader .cardListingService-statusServiceFalse img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardListingService-align .cardListingService-style .cardListingServiceBody p {
+    color: #119E9F;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.cardListingService-align .cardListingService-licenses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.cardListingService-align .cardListingService-licenses h2 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.cardListingService-align .cardListingService-licenses h1 {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.pCustomize{
+    padding-right: 160px;
+    padding-top: 5px;
+}

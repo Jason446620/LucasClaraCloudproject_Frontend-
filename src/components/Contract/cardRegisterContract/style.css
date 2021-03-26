@@ -1,0 +1,103 @@
+.cardRegisterContractCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 880px;
+    height: 520px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardRegisterContractStep{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.cardRegisterContractStep .stepOne2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.cardRegisterContractInput {
+    display: flex;
+}
+
+.cardRegisterContractInput .cardRegisterContractInputSeparator{
+    margin-bottom: 30px;
+}
+
+
+.cardRegisterContractInput .cardRegisterContractInputSeparatorLeft{
+    padding-right: 80px;
+}
+
+.cardRegisterContractButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cardRegisterContractButton .cardRegisterContractButtonSeparator{
+    padding-right: 70px;
+}
+
+.cardRegisterContractInputTypeContract p{
+   color: #119E9F;
+   font-weight: bold;
+   font-size: 17px;
+   padding-left: 240px;
+   margin-top: 7px;
+}
+
+.cardRegisterContractButton p{
+    color: #13B7BA;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.cardRegisterContractCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.cardRegisterContractCorpo h3{
+    color: #13B7BA;
+    font-weight: bold;
+    padding-right: 600px;
+}
+
+.informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.informations .informationOne{
+    color: #13B7BA;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.informations .informationTwo{
+    color: #CCCCCC;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cardRegisterContractInputUnique1{
+    margin-bottom: 32px;
+}

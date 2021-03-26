@@ -1,0 +1,26 @@
+ #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: none;
+    color: #13B7BA;
+    border: none;
+    border-style: none;
+    padding: 2px;
+    width: 45px;
+    height: 45px;
+    right: 25px;
+    bottom: 30px;
+    border-radius: 30px;
+    background-color: white;
+    background-size: 25px;
+}
+
+#top:hover {
+    color: #119E9F;
+    border: none;
+    display: block;
+    border: none;
+    outline: none;
+}

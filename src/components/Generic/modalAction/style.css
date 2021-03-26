@@ -1,0 +1,65 @@
+.modalConfirmOutside {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.modalConfirmOutside .modalConfirmBody {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: #13B7BA;
+
+    box-sizing: content-box;
+
+    padding: 15px;
+    width: 30%;
+    height: 30%;
+
+    display: table;
+}
+
+.modalConfirmOutside .modalConfirmBody .modalConfirmContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 0px;
+}
+
+.modalConfirmOutside .modalConfirmBody .modalConfirmContent .modalConfirmBtn {
+    margin: 19px 0; 
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+
+.modalConfirmOutside .modalConfirmBody .modalConfirmContent h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 18px;
+}
+
+.modalConfirmOutside .modalConfirmBody .modalConfirmContent hr {
+    width: 80%;
+    margin-bottom: 5px;
+    border-style: inset;
+    border: 1px solid #13B7BA;
+    border-radius: 5px;
+}

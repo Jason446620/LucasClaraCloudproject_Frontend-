@@ -1,0 +1,19 @@
+.loading-container {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}

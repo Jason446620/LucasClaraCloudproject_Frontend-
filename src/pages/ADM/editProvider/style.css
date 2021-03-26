@@ -1,0 +1,9 @@
+.editProviderBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editProviderInternalBody{
+    margin-top: 95px;
+}

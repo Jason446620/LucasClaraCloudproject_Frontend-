@@ -1,0 +1,37 @@
+.login-background {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url(../../assets/images/background-login.png);
+    background-size: 1200px 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.login-background .login-form {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-background .login-form .login-card {
+    margin-left: 220px;
+}
+
+.login-background .login-icon img {
+    width: 360px;
+    height: 240px;
+    margin-right: 70px;
+}
+
+@media (max-width: 1600px) {
+    .login-background {
+        background-size: 1000px 100%;
+    }
+
+    .login-background .login-form .login-card {
+        margin-left: 160px;
+    }
+}

@@ -1,0 +1,11 @@
+.editHiredServiceBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.editHiredServiceInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

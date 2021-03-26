@@ -1,0 +1,43 @@
+.cardEditProviderBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 530px;
+    height: 480px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 10px #0000002a;
+}
+
+.cardEditProviderBody .cardEditProviderTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cardEditProviderBody .cardEditProviderTitle h2 {
+    color: #13B7BA;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.cardEditProviderBody .cardEditProviderInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardEditProviderBody .cardEditProviderInput .alignInputs{
+    margin-bottom:10px;
+}
+
+.cardEditProviderBody .cardEditProviderButton {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 40px;
+}

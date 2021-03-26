@@ -1,0 +1,12 @@
+.register-user-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../../assets/images/background-login.png);
+    background-size: 100000px 100%;
+    background-repeat: no-repeat; */
+    background-color: #13B7BA;
+    width: 100%;
+    transition: 100ms;
+    height: 100vh;
+}

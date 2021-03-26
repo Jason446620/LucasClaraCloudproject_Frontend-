@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body{
+    background-color: #EBEBEA;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.StandardSelect{
+    width: 320px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: white;
+    color: #119E9F;
+    border-width: 1px;
+    border-color: #119E9F;
+    border-style: solid;
+    outline: none;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+ input::-webkit-datetime-edit{
+    min-width: 100%;
+    width: 100%;
+}  
+
+/* input[type="date"]:not(.has-value):before{
+    color: white;
+    content: attr(placeholder);
+  }  */
+
+  

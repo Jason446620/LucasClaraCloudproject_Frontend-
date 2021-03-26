@@ -1,0 +1,10 @@
+.registerContractBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerContractInternalBody{
+    margin-top: 110px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,56 @@
+.cardRegisterServiceCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 850px;
+    height: 550px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardRegisterServiceInput{
+    display: flex;
+    justify-content: space-evenly;
+    width: 850px;
+    margin-bottom: 20px;
+}
+
+.cardRegisterServiceInput .cardRegisterServiceInputSeparator{
+    margin-bottom: 30px;
+}
+
+.cardRegisterServiceButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardRegisterServiceButton .cardRegisterServiceButtonSeparator{
+    padding-right: 50px;
+}
+
+.cardRegisterServiceInputSeparator p{
+    color: #119E9F;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 255px;
+    margin-top: 7px;
+ }
+
+.cardRegisterServiceCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cardRegisterServiceImg{
+    margin-bottom: 40px;
+}
+
+/* .InputUpper input{
+    text-transform: uppercase;
+} */

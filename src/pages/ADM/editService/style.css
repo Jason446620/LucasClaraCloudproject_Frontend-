@@ -1,0 +1,10 @@
+.editServiceBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editServiceInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

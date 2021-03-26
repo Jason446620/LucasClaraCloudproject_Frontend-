@@ -1,0 +1,66 @@
+.verySmallSearchInput {
+    background: url(../../../assets/images/search_icon-blue.png) no-repeat scroll 15px 11px;
+    background-size: 20px;
+    border-radius: 2.5em;
+    background-color: white;
+    height: 40px;
+    width: 240px;
+    outline: none;
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+    padding-left: 45px;   
+    color: #119E9F;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.verySmallSearchInputHollow {
+    background: url(../../../assets/images/search_icon-blue.png) no-repeat scroll 15px 8px;
+    background-size: 20px;
+    border-radius: 2.5em;
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 400px;
+    outline: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #119E9F;
+    padding-left: 45px;   
+    color: #119E9F;
+    display: flex;
+    flex-direction: column;
+}
+
+.verySmallSearchInput::-webkit-input-placeholder{
+    color: #119E9F;
+ }
+  
+ .verySmallSearchInput:-moz-placeholder{ /* Firefox 18- */
+    color: #119E9F;  
+ }
+  
+ .verySmallSearchInput::-moz-placeholder{  /* Firefox 19+ */
+    color: #119E9F;  
+ }
+  
+ .verySmallSearchInput:-ms-input-placeholder {  
+    color: #119E9F;  
+ }
+
+ 
+ .verySmallSearchInputHollow::-webkit-input-placeholder{
+   color: #119E9F;
+}
+ 
+.verySmallSearchInputHollow:-moz-placeholder{ /* Firefox 18- */
+   color: #119E9F;  
+}
+ 
+.verySmallSearchInputHollow::-moz-placeholder{  /* Firefox 19+ */
+   color: #119E9F;  
+}
+ 
+.verySmallSearchInputHollow:-ms-input-placeholder {  
+   color: #119E9F;  
+}

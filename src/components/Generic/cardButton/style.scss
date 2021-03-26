@@ -1,0 +1,42 @@
+.cardButton-style {
+    background-color: white;
+    box-shadow: 0px 4px 10px #00000067;
+    border-width: 4px;
+    border-radius: 1.3em;
+    height: 198px;
+    width: 198px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardButton-style img {
+    width: 73px;
+    height: 73px;
+}
+
+.cardButton-style p {
+    position: relative;
+    top: 7px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    color: #13B7BA;
+    max-width: 160px;
+}
+
+.cardButton-style:hover{
+    img {
+        filter:brightness(100);
+    }
+    
+    p {
+        color: white;
+    }
+    
+    border: none;
+    border-style: none;
+    background-color: #119E9F;
+}

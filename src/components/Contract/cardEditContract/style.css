@@ -1,0 +1,64 @@
+.CardEditContractCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 880px;
+    height: 540px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.CardEditContractInput {
+    display: flex;
+    justify-content: space-evenly;
+    width: 880px;
+}
+
+.CardEditContractInput .CardEditContractInputSeparator{
+    margin-bottom: 30px;
+}
+
+.CardEditContractButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.CardEditContractButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.CardEditContractInputTypeContract p{
+   color: #119E9F;
+   font-weight: bold;
+   font-size: 17px;
+   padding-left: 240px;
+   margin-top: 7px;
+}
+
+.CardEditContractButton p{
+    color: #13B7BA;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.CardEditContractCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.CardEditContractCorpo h3{
+    color: #13B7BA;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}

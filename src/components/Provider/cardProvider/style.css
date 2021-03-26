@@ -1,0 +1,43 @@
+.cardProviderBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 530px;
+    height: 480px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 10px #0000002a;
+}
+
+.cardProviderBody .cardProviderTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cardProviderBody .cardProviderTitle h2 {
+    color: #13B7BA;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.cardProviderBody .cardProviderInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardProviderBody .cardProviderInput .alignInputs{
+    margin-bottom:10px;
+}
+
+.cardProviderBody .cardProviderButton {
+    display: flex; 
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 40px;
+}

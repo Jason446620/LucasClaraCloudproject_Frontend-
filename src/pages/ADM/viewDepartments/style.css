@@ -1,0 +1,10 @@
+.viewDepartmentBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewDepartmentInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

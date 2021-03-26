@@ -1,0 +1,66 @@
+.searchInput {
+    background: url(../../../assets/images/search_icon-blue.png) no-repeat scroll 15px 11px;
+    background-size: 20px;
+    border-radius: 2.5em;
+    background-color: white;
+    height: 40px;
+    width: 840px;
+    outline: none;
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+    padding-left: 45px;   
+    color: #119E9F;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInputHollow {
+    background: url(../../../assets/images/search_icon-blue.png) no-repeat scroll 15px 8px;
+    background-size: 20px;
+    border-radius: 2.5em;
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 840px;
+    outline: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #119E9F;
+    padding-left: 45px;   
+    color: #119E9F;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.searchInput::-webkit-input-placeholder{
+    color: #119E9F;
+ }
+  
+ .searchInput:-moz-placeholder{ /* Firefox 18- */
+    color: #119E9F;  
+ }
+  
+ .searchInput::-moz-placeholder{  /* Firefox 19+ */
+    color: #119E9F;  
+ }
+  
+ .searchInput:-ms-input-placeholder {  
+    color: #119E9F;  
+ }
+
+ 
+ .searchInputHollow::-webkit-input-placeholder{
+   color: #119E9F;
+}
+ 
+.searchInputHollow:-moz-placeholder{ /* Firefox 18- */
+   color: #119E9F;  
+}
+ 
+.searchInputHollow::-moz-placeholder{  /* Firefox 19+ */
+   color: #119E9F;  
+}
+ 
+.searchInputHollow:-ms-input-placeholder {  
+   color: #119E9F;  
+}

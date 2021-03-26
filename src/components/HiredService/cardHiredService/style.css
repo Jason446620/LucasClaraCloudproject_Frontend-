@@ -1,0 +1,110 @@
+.cardHiredServiceCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 880px;
+    height: 700px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardHiredServiceStep{
+    width: 220px;
+}
+
+.cardHiredServiceStep .stepOne1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cardHiredServiceInput {
+    display: flex;
+}
+
+.cardHiredServiceInput .cardHiredServiceInputSeparator{
+    margin-bottom: 30px;
+}
+
+
+.cardHiredServiceInput .cardHiredServiceInputSeparatorLeft{
+    padding-right: 80px;
+}
+
+.cardHiredServiceButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cardHiredServiceButton .cardHiredServiceButtonSeparator{
+    padding-right: 70px;
+}
+
+.cardHiredServiceInputSeparator p{
+   color: #119E9F;
+   font-weight: bold;
+   font-size: 17px;
+   padding-left: 240px;
+   margin-top: 7px;
+}
+
+.cardHiredServiceButton p{
+    color: #13B7BA;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.cardHiredServiceCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.cardHiredServiceCorpo h3{
+    color: #13B7BA;
+    font-weight: bold;
+    padding-right: 600px;
+}
+
+.HiredServiceInformations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.HiredServiceInformationOne{
+    color: #13B7BA;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.HiredServiceInformationTwo{
+    color: #13B7BA;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.standardLabel{
+    color: #13B7BA;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.cardHiredServiceInputUnique{
+    margin-bottom: 20px;
+}
+
+

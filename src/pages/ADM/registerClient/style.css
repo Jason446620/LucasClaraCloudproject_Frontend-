@@ -1,0 +1,9 @@
+.RegisterClientBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterClientInternalBody{
+    margin-top: 95px;
+}

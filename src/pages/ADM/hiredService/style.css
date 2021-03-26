@@ -1,0 +1,10 @@
+.hiredServiceBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.hiredServiceInternalBody{
+    margin-top: 130px;
+}

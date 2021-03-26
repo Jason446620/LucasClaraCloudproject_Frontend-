@@ -1,0 +1,10 @@
+.editDepartmentBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editDepartmentInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

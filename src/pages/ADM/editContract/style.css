@@ -1,0 +1,10 @@
+.editContractBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editContractInternalBody{
+    margin-top: 110px;
+    padding-bottom: 50px;
+}

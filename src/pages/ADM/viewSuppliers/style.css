@@ -1,0 +1,10 @@
+.viewSupplierBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewSupplierInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

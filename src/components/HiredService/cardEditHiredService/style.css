@@ -1,0 +1,104 @@
+.cardEditHiredServiceCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 880px;
+    height: 550px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardEditHiredServiceCorpo input, .cardEditHiredServiceCorpo select {
+    margin-bottom: 20px;
+}
+
+.cardEditHiredServiceInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardEditHiredServiceInput .cardEditHiredServiceInputSeparator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.cardEditHiredServiceInput .cardEditHiredServiceInputSeparatorLeft{
+    padding-right: 80px;
+}
+
+.cardEditHiredServiceButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cardEditHiredServiceButton .cardEditHiredServiceButtonSeparator{
+    padding-right: 70px;
+}
+
+.cardEditHiredServiceInputSeparator p{
+   color: #119E9F;
+   font-weight: bold;
+   font-size: 17px;
+   padding-left: 240px;
+   margin-top: 7px;
+}
+
+.cardEditHiredServiceInputSeparator-numberFormat{
+    display: flex;
+    width: 320px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 10px 30px 10px 15px;
+    border-color: #119E9F;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+    color: #119E9F;
+    white-space: normal;
+}
+
+.cardEditHiredServiceButton p{
+    color: #13B7BA;
+    font-weight: bold;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.cardEditHiredServiceCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+
+.cardEditHiredServiceCorpo h3{
+    color: #13B7BA;
+    font-weight: bold;
+    padding-right: 600px;
+}
+
+.HiredServiceInformations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.standardLabel{
+    color: #13B7BA;
+    font-weight: bold;
+}

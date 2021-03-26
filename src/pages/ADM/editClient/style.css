@@ -1,0 +1,10 @@
+.editClientBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editClientInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

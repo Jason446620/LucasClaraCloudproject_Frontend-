@@ -1,0 +1,31 @@
+.standardInput {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 10px 30px 10px 15px;
+    border-color: #119E9F;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+    color: #119E9F;
+    white-space: normal;
+}
+
+::-webkit-input-placeholder {
+    color: #119E9F;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: #119E9F;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #119E9F;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: #119E9F;  
+ }

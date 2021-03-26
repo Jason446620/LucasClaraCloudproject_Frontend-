@@ -1,0 +1,71 @@
+.hollowResponsiveButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.0);;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #13B7BA;
+    border-color: #13B7BA;
+    display: block;
+    border: solid;
+    outline: none;
+}
+
+.hollowResponsiveButton:hover {
+    background-color: #13B7BA;
+    border: solid;
+    border-color: #13B7BA;
+    color: white;
+    display: block;
+    outline: none;
+}
+
+.filledResponsiveButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    background-color: #13B7BA;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+    border-color: none;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.filledResponsiveButton:hover {
+    background-color: #119E9F;
+    border: none;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.hollowhiteResponsive{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: solid;
+    border-color: white;
+    outline: none;
+}
+
+.hollowhiteResponsive:hover {
+    background-color:  rgba(255, 255, 255);
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.0);
+    color: #13B7BA;
+    display: block;
+    outline: none;
+}

@@ -1,0 +1,60 @@
+.cardEditClientCorpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 530px;
+    height: 520px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px #0000002a;
+    border: none;
+}
+
+.cardEditClientInput{
+    padding-bottom: 15px;
+}
+
+.cardEditClientInput .cardEditClientInputSeparator{
+    margin-bottom:30px;
+}
+
+.cardEditClientInputSeparator #cnpj {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 10px 30px 10px 15px;
+    border-color: #119E9F;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+    color: #119E9F;
+    white-space: normal;
+}
+
+.cardEditClientButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardEditClientImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.cardEditClientButton .cardEditClientButtonSeparator{
+    padding-right: 50px;
+}
+
+.cardEditClientCorpo h2{
+    color: #13B7BA;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,9 @@
+.registerProviderBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerProviderInternalBody{
+    margin-top: 95px;
+}

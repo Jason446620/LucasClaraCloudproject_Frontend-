@@ -1,0 +1,32 @@
+.unathorizedUser-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #13B7BA;
+    width: 100%;
+    transition: 100ms;
+    height: 100vh;
+    
+    color: white;
+}
+
+.unathorizedUser-container img {
+    width: 200px;
+}
+
+.unathorizedUser-content {
+    position: relative;
+    top: 100px;
+}
+
+.unathorizedUser-btn-box {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.unathorizedUser-btn-box input{
+    padding: 0 15px;
+}

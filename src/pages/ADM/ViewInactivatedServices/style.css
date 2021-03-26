@@ -1,0 +1,9 @@
+.viewInactivatedServicesBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewInactivatedServicesInternalBody{
+    margin-top: 130px;
+}

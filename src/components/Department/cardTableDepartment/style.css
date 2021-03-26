@@ -1,0 +1,62 @@
+.cardTableDepartmentBody{
+    width: 1000px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.cardTableDepartmentTopOptions{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.cardTableDepartmentTopOptions .cardTableDepartmentInput{
+    padding-right: 200px;
+}
+
+.cardTableDepartmentCustomization{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTableDepartmentCustomization thead tr th{
+    color: #119E9F;
+    font-weight: bold;
+    width: 330px;
+}
+
+.cardTableDepartmentCustomization tbody{
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.cardTableDepartmentCustomization tbody hr{
+    border-style: inset;
+    border: 1px solid #119f9f31;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.cardTableDepartmentCustomization thead hr{
+    border-style: inset;
+    border: 1px solid #119f9f31;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.cardTableDepartmentCustomization td{
+    color: #119E9F;
+    text-align: center;
+    width: 330px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.departmentTd_buttonEdit{
+    padding-left: 115px;
+}
+.departmentTd_buttonsInative{
+    padding-left: 115px;
+}

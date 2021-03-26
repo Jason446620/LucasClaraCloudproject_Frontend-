@@ -1,0 +1,10 @@
+.viewUserBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewUserInternalBody{
+    margin-top: 130px;
+    padding-bottom: 50px;
+}

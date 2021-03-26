@@ -1,0 +1,171 @@
+.cardTableInactivatedServiceBody{
+    width: 1400px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.cardTableInactivatedServiceTopOptions{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.cardTableInactivatedServiceTopOptions .cardTableInactivatedServiceInput{
+    padding-right: 390px;
+}
+
+.cardTableInactivatedServiceCustomization{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTableInactivatedServiceCustomization thead tr th{
+    color: #119E9F;
+    font-weight: bold;
+    width: 240px;
+}
+
+.cardTableInactivatedServiceCustomization tbody{
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.cardTableInactivatedServiceCustomization tbody hr{
+    border-style: inset;
+    border: 1px solid #119f9f31;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.cardTableInactivatedServiceCustomization thead hr{
+    border-style: inset;
+    border: 1px solid #119f9f31;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.cardTableInactivatedServiceCustomization td{
+    color: #119E9F;
+    text-align: center;
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* Esses dois padding estão causando um bug estranho que consiste em
+    alguns botoes no final da lista não serem clicaveis, quando eu diminui o zoom da 
+    minha tela os botoes funcionaram perfeitamente, então precisamos revisar isso */
+}
+
+.td_buttons div{
+    display: flex;
+    justify-content: center;
+}
+
+.td_buttonEdit{
+    padding-left: 75px;
+}
+.td_buttonsInative{
+    padding-left: 70px;
+}
+
+.td_line{
+    padding-left: 15px;
+}
+
+.td_lineNameSupplier{
+    padding-left: 20px;
+}
+
+.re{
+    display: flex;
+}
+
+/* ********************************************************************************************************* */
+
+@media (min-width: 1366px){
+    .cardTableInactivatedServiceBody{
+        width: 1300px;
+        height: 100%;
+        border-radius: 20px;
+        background-color: white;
+    }
+    
+    .cardTableInactivatedServiceTopOptions{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .cardTableInactivatedServiceTopOptions .cardTableInactivatedServiceInput{
+        padding-right: 390px;
+    }
+    
+    .cardTableInactivatedServiceCustomization{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cardTableInactivatedServiceCustomization thead tr th{
+        color: #119E9F;
+        font-weight: bold;
+        width: 250px;
+        font-size: 15px;
+    }
+    
+    .cardTableInactivatedServiceCustomization tbody{
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .cardTableInactivatedServiceCustomization tbody hr{
+        border-style: inset;
+        border: 1px solid #119f9f31;
+        border-radius: 5px;
+        margin: 0 20px;
+    }
+    
+    .cardTableInactivatedServiceCustomization thead hr{
+        border-style: inset;
+        border: 1px solid #119f9f31;
+        border-radius: 5px;
+        margin: 0 20px;
+    }
+    
+    .cardTableInactivatedServiceCustomization td{
+        color: #119E9F;
+        text-align: center;
+        width: 230px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        /* Esses dois padding estão causando um bug estranho que consiste em
+        alguns botoes no final da lista não serem clicaveis, quando eu diminui o zoom da 
+        minha tela os botoes funcionaram perfeitamente, então precisamos revisar isso */
+    }
+    
+    .td_buttons div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .td_buttonEdit{
+        padding-left: 75px;
+    }
+    .td_buttonsInative{
+        padding-left: 70px;
+    }
+    
+    .td_line{
+        padding-left: 15px;
+    }
+    
+    .td_lineNameSupplier{
+        padding-left: 40px;
+    }
+    
+    .re{
+        display: flex;
+    }
+}
